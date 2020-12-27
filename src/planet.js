@@ -97,9 +97,9 @@ export class Planet extends Component {
                   <Card
                     variant="outlined"
                     style={{
-                      width: "200px",
+                      width: "250px",
                       display: "inline-block",
-                      marginLeft: "13px"
+                      marginLeft: "15px"
                     }}
                   >
                     <CardContent>
@@ -109,7 +109,7 @@ export class Planet extends Component {
                     </CardContent>
                     <CardActions>
                       <IconButton
-                        color="primary"
+                        color="Secondary"
                         aria-label="upload picture"
                         component="span"
                         onClick={() => {
@@ -148,7 +148,7 @@ export class Planet extends Component {
                     </CardContent>
                     <CardActions>
                       <IconButton
-                        color="primary"
+                        color="Secondary"
                         aria-label="upload picture"
                         component="span"
                         onClick={() => {
