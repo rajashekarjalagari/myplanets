@@ -55,14 +55,9 @@ export class Planet extends Component {
       withCredentials: false
     };
     axios(config).then(res => {
-      this.setState(
-        {
-          planets: res.data
-        },
-        () => {
-          console.log(this.state.planets, "plants");
-        }
-      );
+      this.setState({
+        planets: res.data
+      });
     });
   }
 
